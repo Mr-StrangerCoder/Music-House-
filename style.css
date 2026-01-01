@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* header css */
 
 
-.navbar{
+.navbar {
     /* border: 1px solid red; */
     height: 4rem;
     position: relative;
@@ -14,19 +15,21 @@
     background-color: rgb(7, 6, 6);
 }
 
-.navbar .firstDiv{
+.navbar .firstDiv {
     /* border: 1px solid blue; */
     width: 45%;
     height: 100%;
     display: flex;
     gap: 0.5rem;
-   
+
 }
-.firDiv1 img{
+
+.firDiv1 img {
     width: 100%;
     height: 100%;
 }
-.firstDiv .firDiv1{
+
+.firstDiv .firDiv1 {
     /* border: 1px solid rgb(12, 220, 235); */
     width: 9%;
     height: 75%;
@@ -36,20 +39,21 @@
 }
 
 
-.firstDiv .firDiv2{
+.firstDiv .firDiv2 {
     width: 100%;
     /* border: 1px solid rgb(34, 167, 34); */
     height: 80%;
     align-self: center;
     display: flex;
-   
+
     gap: 0.5rem;
 }
-.firDiv2 .box{
+
+.firDiv2 .box {
     /* border: 1px solid whitesmoke; */
     width: 10%;
     background-color: rgb(39, 24, 241);
-    animation: shaky 1s linear infinite ;
+    animation: shaky 1s linear infinite;
     /* transition: all 2s linear; */
     color: rgb(0, 0, 0);
     font-weight: 900;
@@ -59,35 +63,39 @@
     border-radius: 50%;
 
 }
-@keyframes shaky{
-    0%{
+
+@keyframes shaky {
+    0% {
         transform: rotate(10deg);
         box-shadow: 0px 0px 10px white;
         /* background-color: #f05d08; */
-    
+
 
     }
-    50%{
+
+    50% {
         transform: rotate(-10deg);
         /* background-color: green; */
 
 
     }
-    100%{
+
+    100% {
         transform: rotate(10deg);
         /* background-color: blue; */
         /* box-shadow: 0px 0px 10px rgb(5, 5, 5); */
     }
 }
-.navbar .thDiv{
+
+.navbar .thDiv {
     /* border: 1px solid rgb(80, 241, 16); */
     position: absolute;
     width: 25%;
     height: 100%;
-    right: 0.5rem; 
+    right: 0.5rem;
 }
 
-.thDiv .hello{
+.thDiv .hello {
     color: rgb(245, 246, 250);
     position: absolute;
     left: 3rem;
@@ -103,6 +111,7 @@
     gap: 4px;
     /* border: 1px solid white; */
 }
+
 .music-equalizer span {
     /* border: 1px solid gold; */
     width: 6px;
@@ -111,16 +120,37 @@
     border-radius: 2px;
     animation: wave 0.8s infinite ease-in-out;
 }
-.music-equalizer span:nth-child(5) { animation-delay: 0.1s; }
-.music-equalizer span:nth-child(4) { animation-delay: 0.2s; }
-.music-equalizer span:nth-child(3) { animation-delay: 0.3s; }
-.music-equalizer span:nth-child(2) { animation-delay: 0.4s; }
+
+.music-equalizer span:nth-child(5) {
+    animation-delay: 0.1s;
+}
+
+.music-equalizer span:nth-child(4) {
+    animation-delay: 0.2s;
+}
+
+.music-equalizer span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.music-equalizer span:nth-child(2) {
+    animation-delay: 0.4s;
+}
 
 @keyframes wave {
-    0% { transform: scaleY(0.3); }
-    50% { transform: scaleY(1.4); }
-    100% { transform: scaleY(0.3); }
+    0% {
+        transform: scaleY(0.3);
+    }
+
+    50% {
+        transform: scaleY(1.4);
+    }
+
+    100% {
+        transform: scaleY(0.3);
+    }
 }
+
 .music-equalizer2 {
     display: flex;
     position: absolute;
@@ -129,6 +159,7 @@
     gap: 4px;
     /* border: 1px solid white; */
 }
+
 .music-equalizer2 span {
     /* border: 1px solid gold; */
     width: 6px;
@@ -137,10 +168,22 @@
     border-radius: 2px;
     animation: wave 0.8s infinite ease-in-out;
 }
-.music-equalizer2 span:nth-child(2) { animation-delay: 0.1s; }
-.music-equalizer2 span:nth-child(3) { animation-delay: 0.2s; }
-.music-equalizer2 span:nth-child(4) { animation-delay: 0.3s; }
-.music-equalizer2 span:nth-child(5) { animation-delay: 0.4s; }
+
+.music-equalizer2 span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.music-equalizer2 span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.music-equalizer2 span:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.music-equalizer2 span:nth-child(5) {
+    animation-delay: 0.4s;
+}
 
 
 
@@ -150,15 +193,17 @@
 
 
 
-.song{
+.song {
     display: flex;
     position: relative;
 
 }
-body{
+
+body {
     background-color: black;
 }
-.Aside{
+
+.Aside {
     /* border: 1px solid rgb(248, 245, 245); */
     margin-top: 0.5rem;
     width: 25%;
@@ -170,7 +215,8 @@ body{
 
 
 }
-.Aside .aside1{
+
+.Aside .aside1 {
     /* border: 1px solid red; */
     height: 4rem;
     border-radius: 1rem 1rem 0rem 0rem;
@@ -179,13 +225,15 @@ body{
     color: white;
     align-items: center;
 
-    
+
 }
-.aside1 p{
+
+.aside1 p {
     font-size: 1rem;
     margin-left: 1rem;
 }
-.aside1 .asideIcons{
+
+.aside1 .asideIcons {
     /* border: 1px solid blue; */
     width: 35%;
     height: 70%;
@@ -193,74 +241,82 @@ body{
     right: 1rem;
     align-self: center;
     align-content: center;
-    
+
 
 }
-.asideIcons i{
+
+.asideIcons i {
     color: grey;
     font-size: 1.5rem;
-   background-color: rgba(11, 11, 58, 0.438);
+    background-color: rgba(11, 11, 58, 0.438);
 
     border-radius: 50%;
-    padding: 0.2rem; 
+    padding: 0.2rem;
     margin-left: 0.5rem;
 }
-.asideIcons i:hover{
+
+.asideIcons i:hover {
     color: white;
     cursor: pointer;
 }
-.artisDiv{
+
+.artisDiv {
     color: white;
     /* border: 1px solid palegreen; */
     width: 20%;
     text-align: center;
     padding: 1%;
     margin: 0rem 1.5rem;
-     background-color: rgba(94, 94, 121, 0.247);
-     border-radius: 1rem;
+    background-color: rgba(94, 94, 121, 0.247);
+    border-radius: 1rem;
 }
 
-.SingerDiv{
+.SingerDiv {
     /* border: 1px solid greenyellow; */
     width: 100%;
     height: 84%;
     border-radius: 0rem 0rem 1rem 1rem;
     overflow: scroll;
-      background-color: rgba(7, 7, 36, 0.158);
+    background-color: rgba(7, 7, 36, 0.158);
 }
-.artisDiv:hover{
+
+.artisDiv:hover {
     background-color: rgb(56, 56, 66);
 }
-.SingerDiv .div1{
+
+.SingerDiv .div1 {
     /* border: 1px solid gold; */
     width: 100%;
     height: 2rem;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 1%;
 }
-.div1 .div11{
+
+.div1 .div11 {
     /* border: 1px solid red; */
     width: 30%;
     position: relative;
     color: gray;
     display: flex;
     cursor: pointer;
-    
+
 }
 
-.div11 i{
+.div11 i {
     color: gray;
     margin-left: 1.5rem;
     font-size: 1.2rem;
     position: absolute;
     top: 0.3rem;
-    
+
 }
-.div11 i:hover{
+
+.div11 i:hover {
     color: white;
 }
-.div11 .iconbar{
+
+.div11 .iconbar {
     /* border: 1px solid blue; */
     position: absolute;
     width: 30%;
@@ -268,24 +324,26 @@ body{
     color: gray;
 }
 
-.div11:hover{
+.div11:hover {
     color: white;
 
 }
-.div11 .iconbar i:hover{
+
+.div11 .iconbar i:hover {
     color: white;
 }
 
-.div2{
+.div2 {
     /* border: 1px solid red; */
     width: 100%;
     height: 4rem;
     position: relative;
     display: flex;
-    
+
 
 }
-.div2 .singimg{
+
+.div2 .singimg {
     /* border: 1px solid yellowgreen; */
     width: 15%;
     height: 75%;
@@ -296,49 +354,57 @@ body{
     cursor: pointer;
     overflow: hidden;
 }
-.singimg img{
+
+.singimg img {
     width: 100%;
 }
-.div2 h4{
+
+.div2 h4 {
     position: absolute;
     color: rgb(240, 146, 6);
     left: 5rem;
     top: 0.3rem;
 }
-.div2 p{
+
+.div2 p {
     color: white;
     bottom: 0.5rem;
     position: absolute;
     left: 5rem;
 }
-.div2 i{
+
+.div2 i {
     font-size: 1.5rem;
     position: absolute;
     top: 1.2rem;
     left: 1.8rem;
     display: none;
 }
-.div2:hover{
+
+.div2:hover {
     background-color: rgba(49, 49, 51, 0.459);
-    cursor:grabbing;
+    cursor: grabbing;
 
 }
 
 
 
-.mainDiv{
-    border: 1px solid rgb(1, 37, 240);
+.mainDiv {
+    /* border: 1px solid rgb(1, 37, 240); */
     height: 36rem;
     width: 73%;
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
     border-radius: 1rem;
-     background-color: rgba(11, 11, 58, 0.438);
+    background-color: rgba(11, 11, 58, 0.438);
+
 }
 
-.mainDiv .mainDiv1{
-    border: 1px solid red;
+.mainDiv .mainDiv1 {
+    /* border: 1px solid red; */
+
+    
     width: 100%;
     height: 100%;
     display: flex;
@@ -347,43 +413,53 @@ body{
     align-items: center;
     background-color: white;
     flex-wrap: wrap;
+    border-radius: 1rem;
 }
 
-.mainDiv1 .mainCarts{
+.mainDiv1 .mainCarts {
     width: 20%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 40%;
     box-shadow: 0px 0px 15px black;
     position: relative;
 }
-.mainCarts:hover{
-    border: 5px solid blue;
 
 
-}
-
-.mainCarts .mainCarts2{
+.mainCarts .main1 img {
     width: 100%;
     height: 100%;
-    position: relative;
-    backdrop-filter: blur(10px);
-    display: none;
+}
+
+.mainCarts .main1 :hover {
+    filter: blur(2px);
 
 }
-.mainCarts2 .iconDiv{
-    border: 1px solid red;
-    position: absolute;
-    width: 25%;
-    height: 8vh;
-    bottom: 1rem;
-    right: 2rem;
-    background-color: black;
-    
+
+
+
+.mainCarts .main1 {
+    height: 100%;
+    cursor: pointer;
+
 }
-.mainCarts2:hover{
+
+.mainCarts .textDiv {
+    display: none;
+    padding: 10px;
+    margin-top: 5px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+
+    /* border: 1px solid gold; */
+    width: 50%;
+    height: 50%;
+}
+
+.main1:hover {
+    filter: blur(2px);
+}
+
+.main1:hover+.textDiv {
     display: block;
 }
-
-
-
-
