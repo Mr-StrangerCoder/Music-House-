@@ -494,3 +494,228 @@ audio {
 
 }
 
+
+@media (max-width: 768px) {
+
+
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        padding: 0.5rem;
+        gap: 0.4rem;
+    }
+
+    .navbar .firstDiv {
+        width: 100%;
+        gap: 0.4rem;
+    }
+
+    .firstDiv .firDiv1 {
+        width: 12%;
+        height: 2.5rem;
+        margin-left: 0.3rem;
+    }
+
+    .firstDiv .firDiv2 {
+        height: 2.5rem;
+        gap: 0.3rem;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    .firDiv2 .box {
+        width: 2rem;
+        font-size: 0.7rem;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    .navbar .thDiv {
+        position: static;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+    }
+
+    .thDiv .hello {
+        position: static;
+        font-size: 1.8rem;
+        margin: 0 0.5rem;
+    }
+
+    .music-equalizer,
+    .music-equalizer2 {
+        position: static;
+        top: unset;
+        right: unset;
+    }
+
+    
+    .song {
+        flex-direction: column;
+        position: static;
+    }
+
+
+    .Aside {
+        position: static;
+        width: 95%;
+        height: auto;
+        margin: 0.5rem auto;
+        border-radius: 0.8rem;
+    }
+
+    .SingerDiv {
+        height: 14rem;
+        overflow-y: scroll;
+    }
+
+    .div2 {
+        height: 3.5rem;
+    }
+
+    .div2 .singimg {
+        width: 12%;
+        height: 70%;
+        left: 0.5rem;
+    }
+
+    .div2 h4 {
+        left: 4rem;
+        font-size: 0.8rem;
+        top: 0.2rem;
+    }
+
+    .div2 p {
+        left: 4rem;
+        font-size: 0.75rem;
+        bottom: 0.3rem;
+    }
+
+    .div2 i {
+        font-size: 1.1rem;
+        top: 1rem;
+        left: 1.3rem;
+    }
+
+    
+    .mainDiv {
+        position: static;
+        width: 95%;
+        height: auto;
+        margin: 0.5rem auto;
+        border-radius: 0.8rem;
+    }
+
+    .mainDiv .singerImg {
+        height: 10rem;
+        border-radius: 0.8rem 0.8rem 0 0;
+    }
+
+    .singerImg .imgDiv {
+        width: 30%;
+        height: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1rem;
+    }
+
+    .mainDiv .heading {
+        position: static;
+        text-align: center;
+        padding: 0.5rem 0 0;
+    }
+
+    .mainDiv h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0.3rem 0.5rem;
+    }
+
+    .mainDiv .afterHeading {
+        height: auto;
+        overflow: visible;
+        padding-bottom: 1rem;
+    }
+
+    .afterHeading .detailDiv {
+        width: 100%;
+        height: 3.5rem;
+    }
+
+    .hertblink {
+        width: 10%;
+        font-size: 0.1rem;
+    }
+
+    .detailDiv .hertblink {
+        font-size: 2rem;
+    }
+
+
+    .afterHeading .songIndex {
+        flex-direction: column;
+        height: auto;
+        padding: 0.4rem 0.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        gap: 0.3rem;
+    }
+
+    .songIndex .songName {
+        width: 100%;
+    }
+
+    .songIndex p {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    audio {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0.2rem;
+    }
+
+    #globalPlayer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #111;
+        padding: 0.4rem 0.5rem;
+    }
+
+    #mainAudio {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .firDiv2 .box {
+        width: 1.6rem;
+        font-size: 0.6rem;
+    }
+
+    .mainDiv h1 {
+        font-size: 1.5rem;
+    }
+
+    .div2 .singimg {
+        width: 10%;
+    }
+
+    .div2 h4 {
+        left: 3.5rem;
+        font-size: 0.75rem;
+    }
+
+    .div2 p {
+        left: 3.5rem;
+        font-size: 0.7rem;
+    }
+}
+

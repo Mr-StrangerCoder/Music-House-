@@ -6,8 +6,10 @@
             audios.forEach(otherAudio => {
                 if (otherAudio !== audio) {
                     otherAudio.pause();
-                    otherAudio.currentTime = 0; // optional (restart)
+                    
                 }
             });
         });
     });
+
+   
